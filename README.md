@@ -1,4 +1,4 @@
-## 🎣🌐 Phishing Website Detection 
+## 🌐 Phishing Website Detection 
 
 This Jupyter Notebook provides a comprehensive analysis of various machine learning models for phishing website detection. The dataset used in this analysis contains features extracted from URLs to classify them as phishing or legitimate websites.
 
@@ -12,7 +12,7 @@ The following libraries are used in this notebook:
 
 The dataset used is loaded from a CSV file named `dataset_phishing.csv`. It contains features extracted from URLs along with the target variable indicating whether the website is phishing or legitimate.
 
-### 📊🔍 Exploratory Data Analysis (EDA) 
+### 🔍 Exploratory Data Analysis (EDA) 
 
 - Summary statistics and information about the dataset are provided.
 - Distribution of the target variable and its relationship with other features are visualized.
@@ -23,7 +23,7 @@ The dataset used is loaded from a CSV file named `dataset_phishing.csv`. It cont
 - Data is normalized using standard scaling.
 - The dataset is split into training and testing sets.
 
-### 🤖📊 Machine Learning Models 
+### 📊 Machine Learning Models 
 
 The following machine learning models are trained and evaluated:
 1. Support Vector Machine (SVM)
@@ -32,7 +32,7 @@ The following machine learning models are trained and evaluated:
 4. XGBoost
 5. Artificial Neural Network (ANN)
 
-### 🧾📈 Model Evaluation 
+### 📈 Model Evaluation 
 
 - For each model, hyperparameters are tuned using GridSearchCV.
 - Performance metrics such as accuracy, precision, recall, and F1-score are calculated.
